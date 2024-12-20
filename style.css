@@ -968,3 +968,122 @@ iconify-icon.video-icon:hover {
 .program p+p {
   margin-top: 8px;
 }
+
+/*Sponsorship */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #1e1e1e;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+/* Main Sponsorship Content */
+.sponsorship-container {
+  flex-grow: 1;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.welcome-section,
+.technical-sponsorship,
+.financial-sponsorship {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.welcome-section h2,
+.technical-sponsorship h2,
+.financial-sponsorship h2 {
+  font-size: 26px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.welcome-section p,
+.technical-sponsorship p,
+.financial-sponsorship p {
+  font-size: 16px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Sponsorship Levels */
+.sponsorship-levels {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.sponsorship-card {
+  background-color: #f9f9f9;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.sponsorship-card h3 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.sponsorship-card ul {
+  list-style: none;
+  margin-top: 15px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.sponsorship-card li {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.sponsorship-card.gold {
+  border-color: gold;
+}
+
+.sponsorship-card.gold h3 {
+  background-color: gold;
+  color: black;
+}
+
+.sponsorship-card.silver {
+  border-color: silver;
+}
+
+.sponsorship-card.silver h3 {
+  background-color: silver;
+  color: black;
+}
+
+.sponsorship-card.bronze {
+  border-color: #cd7f32;
+}
+
+.sponsorship-card.bronze h3 {
+  background-color: #cd7f32;
+  color: white;
+}
