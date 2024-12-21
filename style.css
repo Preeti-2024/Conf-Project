@@ -23,22 +23,20 @@
   --dark-color: #0a1622;
   --light-dark-color: #727272;
   --light-color: #fff;
-  --grey-color: #908F8D;
+  --grey-color: #908f8d;
   --light-grey-color: #f5f5f5;
-  --primary-color: #6995B1;
+  --primary-color: #6995b1;
   --light-primary-color: #eef1f3;
 }
 
 /* Fonts */
 :root {
-  --body-font: 'Jost', sans-serif;
-  --heading-font: 'Jost', sans-serif;
-  --secondary-font: 'Roboto Slab', serif;
+  --body-font: "Jost", sans-serif;
+  --heading-font: "Jost", sans-serif;
+  --secondary-font: "Roboto Slab", serif;
 }
 
-
 body {
-
   --bs-link-color: #333;
   --bs-link-hover-color: #333;
 
@@ -47,7 +45,7 @@ body {
 
   --bs-light-rgb: 248, 248, 248;
 
-  --bs-font-sans-serif: 'Jost', sans-serif;
+  --bs-font-sans-serif: "Jost", sans-serif;
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
@@ -57,8 +55,8 @@ body {
   --bs-primary: blue;
   --bs-primary-rgb: 241, 189, 95;
 
-  --bs-primary-bg-subtle: #FFF9EB;
-  --bs-border-color: #F7F7F7;
+  --bs-primary-bg-subtle: #fff9eb;
+  --bs-border-color: #f7f7f7;
 
   --bs-secondary-rgb: 230, 243, 251;
 
@@ -174,9 +172,7 @@ body {
   --bs-gradient: none;
 }
 
-
-@media screen and (max-width:991px) {
-
+@media screen and (max-width: 991px) {
   .btn-primary,
   .btn-outline-primary,
   .btn-outline-dark,
@@ -264,7 +260,6 @@ a {
   transition: transform 0.3s ease-out 0s;
 }
 
-
 /*----------------------------------------------*/
 /* 6. SITE STRUCTURE */
 /*----------------------------------------------*/
@@ -289,7 +284,7 @@ a {
 
 .preloader:before,
 .preloader:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
 }
@@ -317,7 +312,6 @@ a {
 }
 
 @keyframes animation {
-
   0%,
   80%,
   100% {
@@ -329,14 +323,10 @@ a {
   }
 }
 
-
-
 /* offcanvas cross button style  */
 .btn-close:focus {
   box-shadow: none;
 }
-
-
 
 /* nav bar style  */
 .navbar-nav .nav-link.active,
@@ -357,7 +347,6 @@ a {
   text-transform: uppercase;
   font-weight: 600;
   padding: 0.5rem 1rem;
-
 }
 
 .dropdown-item.active,
@@ -365,12 +354,10 @@ a {
   color: var(--bs-body-color);
 }
 
-
 /* modal style */
 .modal-backdrop {
   --bs-backdrop-zindex: 1;
 }
-
 
 /* billboard style  */
 .form-control {
@@ -397,8 +384,6 @@ a {
   box-shadow: none;
 }
 
-
-
 /*----- Services Section Style -------------------------*/
 .services-element {
   cursor: pointer;
@@ -409,8 +394,6 @@ a {
 .services-element:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.12);
 }
-
-
 
 /*----- topselling Section Style -------------------------*/
 button.filter-button {
@@ -433,7 +416,6 @@ button.filter-button:hover {
 .card {
   border: none;
 }
-
 
 /* blog section style */
 
@@ -477,22 +459,26 @@ button.filter-button:hover {
   cursor: pointer;
 }
 
-
 /* testimonial section style */
 .swiper-pagination {
   position: unset;
 }
 
 .swiper-pagination-bullet {
-  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 10px));
-  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 10px));
+  width: var(
+    --swiper-pagination-bullet-width,
+    var(--swiper-pagination-bullet-size, 10px)
+  );
+  height: var(
+    --swiper-pagination-bullet-height,
+    var(--swiper-pagination-bullet-size, 10px)
+  );
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: var(--accent-color);
   background: var(--accent-color);
 }
-
 
 /* footer section style */
 a.footer-link:hover {
@@ -507,9 +493,7 @@ iconify-icon.social-icon:hover {
   color: var(--accent-color);
 }
 
-
 @media screen and (max-width: 991px) {
-
   /* offcanvas menu */
   .offcanvas-body .nav-item {
     font-weight: 700;
@@ -523,9 +507,7 @@ iconify-icon.social-icon:hover {
     line-height: 1.4;
     font-size: 0.9em;
   }
-
 }
-
 
 /*--------------------------------------------------------------
 faqs page style start
@@ -543,12 +525,11 @@ faqs page style start
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url('https://api.iconify.design/eva/arrow-down-fill.svg?color=%2341403e');
-
+  background-image: url("https://api.iconify.design/eva/arrow-down-fill.svg?color=%2341403e");
 }
 
 .accordion-button::after {
-  background-image: url('https://api.iconify.design/eva/arrow-down-fill.svg?color=%2341403e');
+  background-image: url("https://api.iconify.design/eva/arrow-down-fill.svg?color=%2341403e");
 }
 
 .accordion-button:focus {
@@ -556,8 +537,6 @@ faqs page style start
   border-color: none;
   box-shadow: none;
 }
-
-
 
 /*--------------------------------------------------------------
 Blog page style start
@@ -580,7 +559,7 @@ Blog page style start
 }
 
 a.blog-read {
-  border-bottom: 1px solid #D9D9D8;
+  border-bottom: 1px solid #d9d9d8;
   transition: all 0.3s ease-in;
 }
 
@@ -615,13 +594,11 @@ iconify-icon.pagination-arrow:hover {
   color: var(--accent-color);
 }
 
-
-
 /*--------------------------------------------------------------
 Single Product page style start
 --------------------------------------------------------------*/
 .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+.nav-pills .show > .nav-link {
   color: var(--bs-body-color);
   background-color: var(--accent-color);
 }
@@ -630,7 +607,6 @@ Single Product page style start
 .product-thumbnail-slider {
   height: 640px;
 }
-
 
 /*--------------------------------------------------------------
 Checkout page style start
@@ -649,8 +625,6 @@ Checkout page style start
   box-shadow: none;
 }
 
-
-
 /*--------------------------------------------------------------
 Account page style start
 --------------------------------------------------------------*/
@@ -664,15 +638,12 @@ Account page style start
   color: var(--accent-color);
 }
 
-
-
 /*--------------------------------------------------------------
 Styles page style start
 --------------------------------------------------------------*/
 .chocolat-wrapper {
   z-index: 9999;
 }
-
 
 /* Instructors page style
 ------------------------------------------------------------- */
@@ -685,12 +656,12 @@ Styles page style start
   transform: rotatey(-90deg) perspective(100px);
   transform-origin: left;
   cursor: pointer;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: var(--accent-color);
 }
 
 .team-member ul li:first-of-type {
-  transition-delay: .3s;
+  transition-delay: 0.3s;
 }
 
 .team-member ul li:nth-of-type(2) {
@@ -709,13 +680,11 @@ Styles page style start
   transform: rotatey(0deg);
 }
 
-
 /*--------------------------------------------------------------
   Price Plan page style
   --------------------------------------------------------------*/
 .plan-post {
   border: 1px solid var(--accent-color);
-
 }
 
 span.price-tick {
@@ -729,7 +698,6 @@ span.price-tick {
 .recommend-price {
   background: var(--accent-color);
 }
-
 
 /*--------------------------------------------------------------
   Shop Plan page style
@@ -787,8 +755,6 @@ span.price-tick {
 .product-item .item-price {
   font-size: 1.8em;
 }
-
-
 
 /* - course detail Page style
 --------------------------------------------------------------*/
@@ -855,7 +821,6 @@ a.course:hover {
   color: var(--accent-color);
 }
 
-
 /*---- video section style start ----*/
 
 /* color box style */
@@ -884,4 +849,79 @@ iconify-icon.video-icon {
 
 iconify-icon.video-icon:hover {
   font-size: 45px;
+}
+/*FAQ*/
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header h1 {
+  font-size: 28px;
+}
+
+/* Main FAQ Content */
+.faq-container {
+  flex-grow: 1;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.faq-intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faq-intro p {
+  font-size: 16px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-questions {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* FAQ Header Styling */
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-item h2 {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* Answer Styling */
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.faq-answer b {
+  color: #000;
 }
